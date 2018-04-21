@@ -14,10 +14,22 @@ p{
 body {
   background-color: salmon;
   font-family: sans-serif;
-  
+
 }
 ul {
   text-align: center;
   border-style: dotted;
+  margin-left: 200px;
+  margin-right: 200px;
   padding: 60px 60px;
+}
+
+a:hover {
+    color: lightgreen;
+}
+li{
+  display: grid;
+}
+ul .menu {
+  display: inline;
 }
